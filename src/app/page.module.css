@@ -3,20 +3,16 @@
   padding: 1rem;
 }
 
+/* Activity #2: Make the grid layout for the dashboard 
+using 1/4 and 3/4 for the column layout. For the row layout, 
+there should be 2 rows with auto sizing. Add a gap of 1rem between all grid items. */
 .dashboard {
-  display: grid;
-  grid-template-areas:
-    "profile createPost"
-    "profile posts";
-  grid-template-columns: 1fr 3fr;
-  grid-template-rows: auto 1fr;
-  gap: 1rem;
 }
 
+/* Activity #2: Add grid areas for .profile, .createPost, .posts */
 .profile {
   display: flex;
   align-items: center;
-  grid-area: profile;
   border-radius: 5px;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
@@ -24,11 +20,9 @@
 }
 
 .createPost {
-  grid-area: createPost;
 }
 
 .posts {
-  grid-area: posts;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -41,12 +35,5 @@
   overflow: auto;
 }
 
-@media screen and (max-width: 768px) {
-  .dashboard {
-    grid-template-areas:
-      "profile"
-      "createPost"
-      "posts";
-    grid-template-columns: 1fr;
-  }
-}
+/* Activity #3: For mobile screens, make the grid layout into a 1 column layout. 
+Hint: any grid styling can be overridden with media query */
