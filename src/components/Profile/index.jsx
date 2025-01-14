@@ -2,7 +2,7 @@ import Image from "next/image";
 import ProfileIcon from "../../../public/assets/profile.svg";
 import styles from "./style.module.css";
 
-const Profile = ({ name, description, phone_number, email, linkedIn }) => {
+const Profile = ({ name, description, email, linkedIn }) => {
   return (
     <div className={styles.container}>
       <div className={styles.profileHeader}>
@@ -12,7 +12,6 @@ const Profile = ({ name, description, phone_number, email, linkedIn }) => {
       <div className={styles.about}>
         <h2>About Me</h2>
         <p>{description}</p>
-        <p>{phone_number}</p>
         <p>
           <strong>Email Address: </strong>
           {email}

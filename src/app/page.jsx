@@ -24,7 +24,6 @@ export default function Home() {
           <Profile
             name="John Doe"
             description={profileDescription}
-            phoneNumber="(123) 456-7890"
             email="johndoe@gmail.com"
             linkedIn="https://www.linkedin.com/in/john-doe-7418a3b0/"
           />
