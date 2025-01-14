@@ -1,0 +1,9 @@
+html,
+body {
+  margin: 0;
+  background-color: #f5f6ff;
+}
+
+textarea, input, select {
+  font: inherit;
+}
