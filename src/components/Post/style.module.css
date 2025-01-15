@@ -13,3 +13,9 @@
   display: flex;
   align-items: center;
 }
+
+/* Activity 4: Use width, max-width, and height to make the image responsive
+Feel free to experiment with aspect-ratio as well */
+
+.dogImage {
+}
