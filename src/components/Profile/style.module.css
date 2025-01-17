@@ -2,7 +2,8 @@
 for the items with a gap of 0.5rem between each item. 
 Center align the items across the horizontal axis */
 .container {
-  display:flex;
+  display: flex;
+  color: black;
   flex-direction: column;
   gap: 0.5rem;
   justify-content: center;
