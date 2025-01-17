@@ -2,6 +2,7 @@
 for the items with a gap of 0.5rem between each item. 
 Center align the items across the horizontal axis */
 .container {
+  display:flex;
   flex-direction: column;
   gap: 0.5rem;
   justify-content: center;
@@ -12,6 +13,7 @@ Center align the items across the horizontal axis */
 /* Activity #1: Use flexbox to put the name and profile icon next to each other. 
   Center the items across the vertical axis. Add a gap of 1rem. */
 .profileHeader {
+  display: flex;
   flex-direction: row;
   align-content: center;
   gap: 1rem;
